@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["src/core/*"],
+      "@render/*": ["src/render/*"],
+      "@ui/*": ["src/ui/*"]
+    }
+  },
+  "include": ["src", "vite-env.d.ts"]
+}
