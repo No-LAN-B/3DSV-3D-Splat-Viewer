@@ -1,4 +1,4 @@
-// src/core/geom.ts
+// src/core/geometry.ts
 
 import type { AABB, Sphere } from "./types";
 
