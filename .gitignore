@@ -49,10 +49,17 @@ src/**/__sandbox__/**
 src/**/__lab__/**
 src/**/__playground__/**
 src/**/__scratch__/**
+src/**/*.exp.*
+src/**/*.tmp.*
 *.sandbox.*
 *.scratch.*
 
-# Optional: local env & temp (good hygiene)
+# local env & temp (good hygiene)
 .env
 .env.*.local
 *.local
+
+# local notes/screens
+docs/notes/
+screenshots/
+*.drawio
