@@ -40,3 +40,19 @@ lerna-debug.log*
 
 # Mac / Windows junk
 Thumbs.db
+
+# --- Sandbox / Lab (do not commit personal experiments)
+sandbox.html
+src/sandbox/**
+src/lab/**
+src/**/__sandbox__/**
+src/**/__lab__/**
+src/**/__playground__/**
+src/**/__scratch__/**
+*.sandbox.*
+*.scratch.*
+
+# Optional: local env & temp (good hygiene)
+.env
+.env.*.local
+*.local

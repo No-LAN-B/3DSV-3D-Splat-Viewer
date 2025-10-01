@@ -1,0 +1,11 @@
+html, body, #root {
+  height: 100%;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0b1020; /* dark bg so the app isn't white */
+  color: #e5e7eb;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+    
